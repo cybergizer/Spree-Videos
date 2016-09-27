@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_videos'
-  s.version     = '1.3.0'
+  s.version     = '3.1'
   s.summary     = 'Adds youtube videos to Spree commerce products'
-  s.description = 'Add multiuple youtube videos, and a thumbnail selector' + 
+  s.description = 'Add multiuple youtube videos, and a thumbnail selector' +
                   'for those products to a Spree commerce product'
   s.required_ruby_version = '>= 1.8.7'
 
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0'
+  s.add_dependency 'spree_core', '~> 3.1'
   s.add_dependency 'yt', '~> 0.25.1'
 
   # test suite
